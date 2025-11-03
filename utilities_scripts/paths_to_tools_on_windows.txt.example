@@ -1,0 +1,3 @@
+MAKE=C:\Programs\mingw-w64\x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev1\mingw64\bin\mingw32-make.exe
+CC=C:\Programs\mingw-w64\x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev1\mingw64\bin\gcc.exe
+GDB=C:\Programs\mingw-w64\x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev1\mingw64\bin\gdb.exe

@@ -1,0 +1,83 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+
+# Executables
+*.exe
+# on Linux explicit
+opengl_benchmark
+opengl_benchmark_debug
+simplest_obj_to_custom_converter
+simplest_obj_to_custom_converter_debug
+
+# All content of assets folder but one script (memory.sh)
+assets/*.model_3d
+assets/*.png
+assets/*.bmp
+assets/*.ttf
+assets/*.dll
+
+# Location of tools on Windows if used
+utilities_scripts/paths_to_tools_on_windows.txt
+
+# default build folder from utilities scripts
+build/*
+build
+
+# benchmark reports from application
+benchmark_*.txt
+
+# logs from application
+log.txt
+log_*.txt
+
+# if used make.bat from utilities scripts
+make_std*.txt
+
+# if someone places here zip with assets
+*.zip
+
+# if someone uses converter
+*.obj
+*.model_3d
+
+# Notepad++ backups #
+*.bak
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# text editors backups on Linux
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# Metadata left by Dolphin file manager, which comes with KDE Plasma
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# Log files created by default by the nohup command
+nohup.out
