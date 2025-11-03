@@ -8,12 +8,12 @@ This project is an independent work and is not affiliated with or endorsed by th
 
 ## Table of contents
 
-[1. Introduction](#1-introduction)
-[2. Licenses & Credits](#2-licenses--credits)
-[3. Compilation](#3-compilation)
-[4. Running](#4-running)
-[5. Known issues](#5-known-issues)
-[6. Appendix: Converter](6. Appendix: Converter)
+[1. Introduction](#1-introduction)  
+[2. Licenses & Credits](#2-licenses--credits)  
+[3. Compilation](#3-compilation)  
+[4. Running](#4-running)  
+[5. Known issues](#5-known-issues)  
+[6. Appendix: Converter](#6-appendix-converter)  
 
 ## 1. Introduction
 
@@ -55,9 +55,9 @@ This project uses following third-party components (see [third_party_licenses.tx
 
 To get assets use script [fetch_assets.bat](utilities_scripts/fetch_assets.bat) / [fetch_assets.sh](utilities_scripts/fetch_assets.sh) from [utilities_scripts](utilities_scripts/) ('curl' is required)
 
-Alternatively download manually
-[mirror 1](https://drive.google.com/file/d/1jf7hNJS6r42YWU6_SBJqYQNqdIUSH0G3/view?usp=sharing)
-[mirror 2](https://www.asuswebstorage.com/navigate/a/#/s/17AC114746DC4884B4BBA70E4160CC16W)
+Alternatively download manually  
+[mirror 1](https://drive.google.com/file/d/1jf7hNJS6r42YWU6_SBJqYQNqdIUSH0G3/view?usp=sharing)  
+[mirror 2](https://www.asuswebstorage.com/navigate/a/#/s/17AC114746DC4884B4BBA70E4160CC16W)  
 Unzip them directly into ./assets folder.
 
 Alternatively download one of Releases.
@@ -140,7 +140,7 @@ Application interface is meant to be handled with mouse, but there are two impor
 
 ### Results of benchmark
 
-Results of benchmark are saved to:
+Results of benchmark are saved to:  
 '''
 benchmark_*.txt
 '''
@@ -150,10 +150,10 @@ Where there is timestamp in place of asterisk.
 
 1. Dual-GPU notebooks
 
-There are known issues in dual-GPU notebooks:
-	- Main benchmark looks like it is completely in shadow - in this situation select "High performance GPU" from NVidia Control Panel.
-	- If it issues error, try updating your GPU.
-	- If notebook producer does not provide updated GPU driver, try directly from NVidia.
+There are known issues in dual-GPU notebooks:  
+- Main benchmark looks like it is completely in shadow - in this situation select "High performance GPU" from NVidia Control Panel.
+- If it issues error, try updating your GPU.
+- If notebook producer does not provide updated GPU driver, try directly from NVidia.
 
 2. Wayland-EGL
 
