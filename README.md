@@ -71,8 +71,8 @@ Any modern MinGW with following requirements:
 3. SEH exception model
 
 Tested MinGW versions (from [MinGW-Builds](https://github.com/nixman/mingw-builds) project):
-	- [x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev1.7z](https://github.com/niXman/mingw-builds-binaries/releases/download/13.2.0-rt_v11-rev0/x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev0.7z)
-	- [x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0.7z](https://github.com/niXman/mingw-builds-binaries/releases/download/15.2.0-rt_v13-rev0/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0.7z)
+- [x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev1.7z](https://github.com/niXman/mingw-builds-binaries/releases/download/13.2.0-rt_v11-rev0/x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev0.7z)
+- [x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0.7z](https://github.com/niXman/mingw-builds-binaries/releases/download/15.2.0-rt_v13-rev0/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0.7z)
 
 If You have make and cc/gcc in your PATH, run:
 ```
@@ -112,7 +112,7 @@ Ready-to-run versions are provided in (Releases).
 Application should run out of the box.
 
 #### Some early versions of windows 11 and earlier versions of Windows:
-NOT TESTED
+NOT TESTED  
 Ensure you have UCRT from Windows Update, from [dedicated download](https://www.microsoft.com/download/details.aspx?id=48234)
 or from [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
@@ -129,21 +129,21 @@ hwinfo
 
 Before running ensure You are in X11 session.
 
-To have extra functionality:
+To have extra functionality:  
 Set execution permission on file [assets/memory.sh](assets/memory.sh).
 
 ### Keyborad shortcuts
 
-Application interface is meant to be handled with mouse, but there are two important key shortcuts:
-'Escape' - ends benchmark
-'F1' - makes screenshot and also ends benchmark
+Application interface is meant to be handled with mouse, but there are two important key shortcuts:  
+`Escape` - ends benchmark  
+`F1` - makes screenshot and also ends benchmark
 
 ### Results of benchmark
 
 Results of benchmark are saved to:  
-'''
+```
 benchmark_*.txt
-'''
+```
 Where there is timestamp in place of asterisk.
 
 ## 5. Known issues
